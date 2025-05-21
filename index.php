@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <title>UNIVER.TEHNON.com.ua</title>
+  <title>TV.TEHNON.com.ua</title>
   <link rel="icon" type="image/png" href="green-uicon.png">
   <style>
         body {
             
-            background: linear-gradient(to right, #4682B4, #00f2fe); /* Синий-фиолетовый градиент */
+            background: linear-gradient(to right,rgb(27, 70, 27),rgb(81, 247, 131)); /* Синий-фиолетовый градиент */
             color: maroon;
             
         }
@@ -154,263 +154,13 @@ $f = [
   <?php  require "blocks/header.php" ?>
   
   <div class="container mt-5">
-  <img src="img/Shwartc2.jpg" class="img-fluid mx-auto d-block" alt="Центрированная картинка" style="max-width: 350px;">
+  <img src="img/3333.jpg" class="img-fluid mx-auto d-block" alt="Центрированная картинка" style="max-width: 350px;">
     <br/>
-  <h3 class="mb-5">Программы тренировок в зале для начинающих и более опытных спортсменов</h3>
+  <h3 class="mb-5">Смотрите программы Ваших любимых каналов.    Настройтесь на самое лучшее</h3>
 
-    <div class="d-flex flex-wrap">
-      <?php
-      //  for($i = 0; $i < 6; $i++):
-    ?> 
-
-
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Общая  #1</h4>
-      </div>
-      <div class="card-body">
-        <img src="img/priroda_1.jpg" class="img-thumbnail">
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>Жим штанги лежа</li>
-          <li>Жим гантелей вверх</li>
-          <li>Тяга штанги</li>
-          <li>Подъем гантелей</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick="openModal()">Подробнее</button>
-      </div>
-    </div>
+   
     
-    <div id="modal">
-    <div id="modalContent">
-      <button class="closeBtn" onclick="closeModal()">×</button>
-      </br>
-      <h3>Программа #Общая 1  отдых 2–3 мин</h3>
-      <ul>
-        <?php foreach ($a as $item): ?>
-          <li><?= htmlspecialchars($item) ?></li>
-        <?php endforeach; ?>
-      </ul>
-      <button class="closeBottom" onclick="closeModal()">Close</button>
-    </div>
-  </div>
-
-  <script>
-    function openModal() {
-      document.getElementById("modal").style.display = "block";
-    }
-
-    function closeModal() {
-      document.getElementById("modal").style.display = "none";
-    }
-  </script>
-
-
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Общая  #2</h4>
-      </div>
-      <div class="card-body">
-        <img src="img/priroda_2.jpg" class="img-thumbnail">
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>Жим штанги на накл</li>
-          <li>Подъемы гантелей</li>
-          <li>Подтягивания широким</li>
-          <li>Подъем штанги</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick="openModal2()">Подробнее</button>
-      </div>
-    </div>
-
-    <div id="modal2">
-    <div id="modalContent">
-      <button class="closeBtn" onclick="closeModal2()">×</button>
-      </br>
-      <h3>Программа #Общая 2  отдых 2–3 мин</h3>
-      <ul>
-        <?php foreach ($b as $item): ?>
-          <li><?= htmlspecialchars($item) ?></li>
-        <?php endforeach; ?>
-      </ul>
-      <button class="closeBottom" onclick="closeModal2()">Close</button>
-    </div>
-  </div>
-
-  <script>
-    function openModal2() {
-      document.getElementById("modal2").style.display = "block";
-    }
-
-    function closeModal2() {
-      document.getElementById("modal2").style.display = "none";
-    }
-  </script>
-
-
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Общая  #3</h4>
-      </div>
-      <div class="card-body">
-        <img src="img/priroda_3.jpg" class="img-thumbnail">
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>Жим штанги на накл</li>
-          <li>Тяга штанги</li>
-          <li>Подтягивания</li>
-          <li>Тяга нижнего блока</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick="openModal3()">Подробнее</button>
-      </div>
-    </div>
-
-    <div id="modal3">
-    <div id="modalContent">
-      <button class="closeBtn" onclick="closeModal3()">×</button>
-      </br>
-      <h3>Программа #Общая 3  отдых 2–3 мин</h3>
-      <ul>
-        <?php foreach ($c as $item): ?>
-          <li><?= htmlspecialchars($item) ?></li>
-        <?php endforeach; ?>
-      </ul>
-      <button class="closeBottom" onclick="closeModal3()">Close</button>
-    </div>
-  </div>
-
-  <script>
-    function openModal3() {
-      document.getElementById("modal3").style.display = "block";
-    }
-
-    function closeModal3() {
-      document.getElementById("modal3").style.display = "none";
-    }
-  </script>
-
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Плечи руки</h4>
-      </div>
-      <div class="card-body">
-        <img src="img/priroda_4.jpg" class="img-thumbnail">
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>Тяга штанги</li>
-          <li>Жим гантелей</li>
-          <li>Подъемы гантелей</li>
-          <li>Подтягивания</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick="openModal4()">Подробнее</button>
-      </div>
-    </div>
-
-    <div id="modal4">
-    <div id="modalContent">
-      <button class="closeBtn" onclick="closeModal4()">×</button>
-      </br>
-      <h3>Программа #Плечи-руки  отдых 2–3 мин</h3>
-      <ul>
-        <?php foreach ($d as $item): ?>
-          <li><?= htmlspecialchars($item) ?></li>
-        <?php endforeach; ?>
-      </ul>
-      <button class="closeBottom" onclick="closeModal4()">Close</button>
-    </div>
-  </div>
-
-  <script>
-    function openModal4() {
-      document.getElementById("modal4").style.display = "block";
-    }
-
-    function closeModal4() {
-      document.getElementById("modal4").style.display = "none";
-    }
-  </script>
-
-
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Грудь спина</h4>
-      </div>
-      <div class="card-body">
-        <img src="img/priroda_5.jpg" class="img-thumbnail">
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>Жим штанги лежа</li>
-          <li>Жим штанги накл</li>
-          <li>Отжимания</li>
-          <li>Тяга блока</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick="openModal5()">Подробнее</button>
-      </div>
-    </div>
-
-    <div id="modal5">
-    <div id="modalContent">
-      <button class="closeBtn" onclick="closeModal5()">×</button>
-      </br>
-      <h3>Программа #Грудь-спина  отдых 2–3 мин</h3>
-      <ul>
-        <?php foreach ($e as $item): ?>
-          <li><?= htmlspecialchars($item) ?></li>
-        <?php endforeach; ?>
-      </ul>
-      <button class="closeBottom" onclick="closeModal5()">Close</button>
-    </div>
-  </div>
-
-  <script>
-    function openModal5() {
-      document.getElementById("modal5").style.display = "block";
-    }
-
-    function closeModal5() {
-      document.getElementById("modal5").style.display = "none";
-    }
-  </script>
-
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Ноги низ</h4>
-      </div>
-      <div class="card-body">
-        <img src="img/priroda_6.jpg" class="img-thumbnail">
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>Приседания</li>
-          <li>Мертвая тяга</li>
-          <li>Подъемы</li>
-          <li>Жим штанги</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick="openModal6()">Подробнее</button>
-      </div>
-    </div>
-
-    <div id="modal6">
-    <div id="modalContent">
-      <button class="closeBtn" onclick="closeModal6()">×</button>
-      </br>
-      <h3>Программа #Ноги-низ  отдых 2–3 мин</h3>
-      <ul>
-        <?php foreach ($f as $item): ?>
-          <li><?= htmlspecialchars($item) ?></li>
-        <?php endforeach; ?>
-      </ul>
-      <button class="closeBottom" onclick="closeModal6()">Close</button>
-    </div>
-  </div>
-
-  <script>
-    function openModal6() {
-      document.getElementById("modal6").style.display = "block";
-    }
-
-    function closeModal6() {
-      document.getElementById("modal6").style.display = "none";
-    }
-  </script>
-
-    <?php
-  //  endfor; 
-   ?>
-  </div>
+  
   <?php
 // Функция для получения фильмов с API
 function fetchMovies() {
@@ -435,6 +185,55 @@ if ($visibleMovies > count($movies)) {
 }
 ?>
 
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 100%; padding: 10px; box-sizing: border-box;">
+    
+    <!-- 6 блоков -->
+    <div style="flex: 0 0 45%; margin: 10px; background-color: lightblue; height: 280px; text-align: center; line-height: 100px; border-radius: 10px;">
+      CNN </br>
+    <iframe
+        src="https://www.livenewsmag.com/livecnn/"
+        title="Sky News Live"
+        frameBorder="0"
+        allow="encrypted-media"
+       
+      ></iframe>
+    </div>
+
+    <div style="flex: 0 0 45%; margin: 10px; background-color: lightcoral; height: 280px; text-align: center; line-height: 100px; border-radius: 10px;">
+      FOX NEWS </br>
+    <iframe
+        src="https://www.livenewsmag.com/fox-news-live-stream/"
+        title="Sky News Live"
+        frameBorder="0"
+        allow="encrypted-media"
+       
+      ></iframe>
+    </div>
+
+    <div style="flex: 0 0 45%; margin: 10px; background-color: lightgreen; height: 280px; text-align: center; line-height: 100px; border-radius: 10px;">
+      MSNBC </br>
+      <iframe
+        src="https://www.livenewsmag.com/msnbc-news-live-stream/"
+        title="Sky News Live"
+        frameBorder="0"
+        allow="encrypted-media"
+       
+      ></iframe>
+    </div>
+
+    <div style="flex: 0 0 45%; margin: 10px; background-color: lightgoldenrodyellow; height: 100px; text-align: center; line-height: 100px; border-radius: 10px;">
+      Block 4
+    </div>
+
+    <div style="flex: 0 0 45%; margin: 10px; background-color: lightseagreen; height: 100px; text-align: center; line-height: 100px; border-radius: 10px;">
+      Block 5
+    </div>
+
+    <div style="flex: 0 0 45%; margin: 10px; background-color: lightsalmon; height: 100px; text-align: center; line-height: 100px; border-radius: 10px;">
+      Block 6
+    </div>
+
+  </div>
 
   <h1>Movie List</h1>
 
